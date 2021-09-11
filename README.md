@@ -1,6 +1,6 @@
 # flutter_kids
 
-A new Flutter project.
+Flutter UI Kidz Club
 
 ## Getting Started
 
@@ -14,3 +14,22 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## How to use
+
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
+
+```
+# Clone this repository
+$ git clone https://github.com/AldoFadillah/flutter_kids.git
+
+# Go into the repository
+$ cd flutter_kids
+
+# Install dependencies
+$ flutter packages get
+
+# Run the app
+$ flutter run
+```
+
