@@ -31,7 +31,7 @@ class KategoriClub extends StatelessWidget {
                 ),
               ),
               Container(
-                  margin: EdgeInsets.only(right: 16),
+                  margin: EdgeInsets.only(),
                   child: GestureDetector(
                       onTap: () {
                         Navigator.push(

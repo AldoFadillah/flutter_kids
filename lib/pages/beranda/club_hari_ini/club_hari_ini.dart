@@ -13,12 +13,16 @@ class ClubHariIni extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(top: 64, right: 16),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                margin: EdgeInsets.only(left: 16),
+                margin: EdgeInsets.only(
+                  left: 16,
+                ),
                 child: Text(
                   "Club Hari Ini",
                   style: TextStyle(
@@ -94,6 +98,7 @@ class ClubHariIni extends StatelessWidget {
             ),
           ),
           Container(
+            width: 343,
             margin: EdgeInsets.only(left: 16, top: 8),
             child: Text(
               "Cerita Kancil Si Cerdik Dan Buaya Yang Malang Bagian 3 ",
@@ -104,41 +109,47 @@ class ClubHariIni extends StatelessWidget {
               ),
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Container(
-                  margin: EdgeInsets.only(
-                    left: 16,
-                    top: 16,
-                  ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    child: Container(
-                      width: 24,
-                      height: 24,
-                      color: Colors.black,
-                      child: Image(
-                        image: AssetImage("images/avatar201.png"),
-                      ),
+          Container(
+            width: 343,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                    margin: EdgeInsets.only(
+                      left: 16,
+                      top: 16,
                     ),
-                  )),
-              Container(
-                margin: EdgeInsets.only(top: 16, right: 130),
-                child: Text(
-                  "Ruri Sinuri",
-                  style: TextStyle(fontWeight: FontWeight.w600),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Container(
+                        width: 24,
+                        height: 24,
+                        color: Colors.black,
+                        child: Image(
+                          image: AssetImage("images/avatar201.png"),
+                        ),
+                      ),
+                    )),
+                Container(
+                  margin: EdgeInsets.only(
+                    top: 20,
+                    right: 120,
+                  ),
+                  child: Text(
+                    "Ruri Sinuri",
+                    style: TextStyle(fontWeight: FontWeight.w600),
+                  ),
                 ),
-              ),
-              Container(
-                alignment: Alignment.centerRight,
-                margin: EdgeInsets.only(top: 16, right: 16),
-                child: Text(
-                  "EPISODE 3",
-                  style: TextStyle(fontWeight: FontWeight.w300),
-                ),
-              )
-            ],
+                Container(
+                  margin: EdgeInsets.only(top: 20, right: 16),
+                  child: Text(
+                    "EPISODE 3",
+                    style: TextStyle(fontWeight: FontWeight.w300),
+                  ),
+                )
+              ],
+            ),
           ),
           Container(
             margin: EdgeInsets.only(left: 16, top: 16, right: 16),

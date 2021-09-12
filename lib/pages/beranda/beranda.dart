@@ -41,7 +41,7 @@ class _BerandaState extends State<Beranda> {
                 ),
                 Container(
                   alignment: Alignment.bottomRight,
-                  margin: EdgeInsets.only(right: 24, bottom: 10),
+                  margin: EdgeInsets.only(bottom: 14, left: 170),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(60),
                     child: Container(
@@ -82,6 +82,7 @@ class _BerandaState extends State<Beranda> {
               Container(
                 margin: EdgeInsets.only(left: 16),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     //Container Sambutan
                     Container(

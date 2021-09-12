@@ -8,12 +8,15 @@ class WebinarYangAkanDatang extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(top: 56),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                margin: EdgeInsets.only(left: 16),
+                margin: EdgeInsets.only(
+                  left: 16,
+                ),
                 child: Text(
                   "Webinar Yang Akan Datang",
                   style: TextStyle(
